@@ -1,3 +1,14 @@
+/* src/App.css */
+
+/* Aplicar la fuente globalmente */
+body {
+  font-family: 'Nunito Sans', sans-serif, sans-serif; /* La otra fuente está por si Nunito no llega a cargarse */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Otros estilos existentes */
 .App {
   text-align: center;
 }
@@ -35,4 +46,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Otros estilos de la aplicación */
+.inicioSaludo {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.saludo {
+  margin-bottom: 10px;
+}
+
+.nombreYDescripcion {
+  font-size: 20px;
+  color: #333;
 }

@@ -9,53 +9,55 @@ import Experiencia from "./views/Experiencia"
 import Educacion from "./views/Educacion"
 import HeaderBar from './components/Header';
 
+
 // import Boton from "./components/boton"
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import Boton from "./components/Boton"
 
 function App() {
-  // Estado para almacenar el saludo
+  
   const [greeting, setGreeting] = useState('');
   const nombre = "Noah Demián Rotbard";
 
   useEffect(() => {
-    // Obtener la fecha actual
     const ahora = new Date();
-    // Obtener la hora de la hora local
     const hora = ahora.getHours();
-    // Saludar al usuario dependiendo de la hora del día
     if (hora >= 6 && hora < 12) {
-        setGreeting('¡Buenos días!');
+      setGreeting('¡Buenos días!');
     } else if (hora >= 12 && hora < 18) {
-        setGreeting('¡Buenas tardes!');
+      setGreeting('¡Buenas tardes!');
     } else {
-        setGreeting('¡Buenas noches!');
+      setGreeting('¡Buenas noches!');
     }
-  }, []); // El segundo argumento del useEffect es un array vacío para que se ejecute solo una vez al montar el componente
+  }, []);
+
 
   return (
     <>
-    <HeaderBar/>
-    <div className='inicioSaludo'>
-      <div className='saludo'>
-        <h2>{greeting}</h2>
-      </div>
-      <div className='nombreYDescripcion'>
-        <h1>Soy {nombre}</h1>
-        <p>Estudiante de ORT Argentina y Futuro Desarrollador FullStack</p>
-      </div>
-
+      <header>
+        <HeaderBar />
+      </header>
+      <main>
+        <div className='inicioSaludo'>
+          <div className='saludo'>
+            <h2>{greeting}</h2>
+          </div>
+          <div className='nombreYDescripcion'>
+            <h1>Soy {nombre}</h1>
+            <p>Estudiante de ORT Argentina y Futuro Desarrollador FullStack</p>
+            <Boton texto="Contactame!" destino="#contacto" />
+          </div>
+        </div>
+        <AcercaDeMi nombre={nombre} />
+        <Conocimientos />
+        <Experiencia />
+        <Educacion />
+        <Certificaciones />
+        <Contacto />
+      </main>
       
-    </div>
-      <AcercaDeMi nombre={nombre}/>
-      <Conocimientos/>
-      <Experiencia/>
-      <Educacion/>
-      <Certificaciones/>
-      <Contacto/>
     </>
   );
 }
 
 export default App;
-
