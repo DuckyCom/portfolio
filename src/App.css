@@ -1,6 +1,13 @@
 /* src/App.css */
 
 /* Aplicar la fuente globalmente */
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('./components/NunitoSans.ttf');
+}
+* {
+  font-family: 'Nunito Sans';
+}
 body {
   font-family: 'Nunito Sans', sans-serif, sans-serif; /* La otra fuente está por si Nunito no llega a cargarse */
   margin: 0;

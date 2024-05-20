@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.jsx'; // Asegúrate de importar los estilos si es necesario
+import './style.css'; // Asegúrate de importar los estilos si es necesario
 import boton from "../../components/Boton";
 import titulo from "../../components/Titulo";
 import imagen from "../../vendor/noah.jfif"

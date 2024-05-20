@@ -48,16 +48,16 @@ function HeaderBar() {
       };
     }
   }, [lastScrollY]);
-
+// navbar-expand-lg bg-secondary text-uppercase fixed-top
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+      <nav className="navbar" id="mainNav">
         <div className="container">
           <div className="navbar-brand">
-            <a href="#page-top">Noah Rotbard</a>
+            <a href="#top">Noah Rotbard</a>
           </div>
           <div className="navbar-nav-wrapper">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav2">
               <li className="nav-item"><a className="nav-link" href="#acerca">Acerca de Mi</a></li>
               <li className="nav-item"><a className="nav-link" href="#conocimientos">Conocimientos</a></li>
               <li className="nav-item"><a className="nav-link" href="#experiencia">Experiencia</a></li>
@@ -78,7 +78,9 @@ function HeaderBar() {
       >
         Scroll to Top
       </button>
+    
     </>
+    
   );
 }
 

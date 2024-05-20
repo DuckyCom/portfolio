@@ -1,16 +1,22 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import imagenFullStack from '../../vendor/full-stack.svg';
+import imagenWEB from '../../vendor/web-programming.svg';
+import './style.css'
 
 const Experiencia = () => {
     return(
-        <div id="experiencia">
+        <div className="experiencia">
+            <div className="tituloExp">
+                <h1>Experiencia</h1>
+            </div>
             <div className="rowExperiencia">
-                <div className="card">
+                {/* <div className="card"> */}
                     <Card>
                         <Card.Header>
                             <h1>Desarrollador Full Stack</h1>
-                            <h3>Nombre Empresa 2025 - actualidad</h3>    
-                            <img src="ponerimagen" alt="logoFullStack" /> 
+                            <h3>ORT Argentina 2024 - actualidad</h3>    
+                            <img src={imagenFullStack} alt="logoFullStack" /> 
                         </Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -24,7 +30,27 @@ const Experiencia = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </div>
+                {/* </div> */}
+                {/* <div className="card"> */}
+                    <Card>
+                        <Card.Header>
+                            <h1>Desarrollador WEB</h1>
+                            <h3>ORT Argentina 2024 - actualidad</h3>    
+                            <img src={imagenWEB} alt="logoWeb" /> 
+                        </Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                {/* </div> */}
             </div>
         </div>
     )
