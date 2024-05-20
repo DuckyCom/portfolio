@@ -8,26 +8,29 @@
     text-align: center;
     margin-bottom: 10px;
 }
-.rowExperiencia{
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
+#contenedorDeDivs {
     width: 100%;
-    padding-left: 25px;
-    justify-content: space-evenly;
-    gap: 20px;
-
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
+    display: flex;
+    justify-content: center;
 }
-.experiencia .rowExperiencia .card{
-    width: 50%;
-    margin: 0 auto;
+.rowExperiencia{
+
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    padding-left: 25px;
+    gap: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    margin: 10px;
+    width: 45%;
 }
 .experiencia .rowExperiencia .card img{
     float: right;
     width: 200px;
     height: 50px;
 }
-

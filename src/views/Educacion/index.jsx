@@ -5,9 +5,8 @@ import style from "./style.jsx"
 const Educacion = () => {
     return(
         <div id="educacion">
-
+            
         </div>
-
     )
 };
 

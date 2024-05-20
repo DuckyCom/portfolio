@@ -6,13 +6,14 @@ import './style.css'
 
 const Experiencia = () => {
     return(
-        <div className="experiencia">
+        <div className="experiencia" id='experiencia'>
             <div className="tituloExp">
                 <h1>Experiencia</h1>
             </div>
+            <div id="contenedorDeDivs">
             <div className="rowExperiencia">
-                {/* <div className="card"> */}
-                    <Card>
+                <div className="column"> 
+                    <Card className='card'>
                         <Card.Header>
                             <h1>Desarrollador Full Stack</h1>
                             <h3>ORT Argentina 2024 - actualidad</h3>    
@@ -30,8 +31,28 @@ const Experiencia = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                {/* </div> */}
-                {/* <div className="card"> */}
+                {/* </div> 
+                <div className="card"> */}
+                    <Card>
+                        <Card.Header>
+                            <h1>Desarrollador WEB1</h1>
+                            <h3>ORT Argentina 2024 - actualidad</h3>    
+                            <img src={imagenWEB} alt="logoWeb" /> 
+                        </Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                            <Card.Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at sapien eros. Curabitur ullamcorper tellus lacus, et interdum mi dictum quis. Praesent eget sapien erat. Morbi pretium feugiat ligula vitae ullamcorper. Curabitur tempus sapien sed lacus pulvinar, quis aliquam mauris porta. Nulla risus erat, varius sodales rhoncus sed, tincidunt vel nibh. Suspendisse a eros vel lacus faucibus dictum sit amet et felis. Nullam eget pulvinar neque, at accumsan magna. Nam posuere nunc nec ex semper tristique.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </div> 
+                    <div className="column"> 
                     <Card>
                         <Card.Header>
                             <h1>Desarrollador WEB</h1>
@@ -50,7 +71,8 @@ const Experiencia = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                {/* </div> */}
+                </div> 
+            </div>
             </div>
         </div>
     )

@@ -54,7 +54,7 @@ function HeaderBar() {
       <nav className="navbar" id="mainNav">
         <div className="container">
           <div className="navbar-brand">
-            <a href="#top">Noah Rotbard</a>
+            <a href="#top">NOAH ROTBARD</a>
           </div>
           <div className="navbar-nav-wrapper">
             <ul className="navbar-nav2">
@@ -76,7 +76,7 @@ function HeaderBar() {
         }}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        Scroll to Top
+        Volver para arriba 
       </button>
     
     </>

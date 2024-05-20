@@ -58,14 +58,43 @@ body {
 /* Otros estilos de la aplicación */
 .inicioSaludo {
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #f4f6f8;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .saludo {
   margin-bottom: 10px;
 }
 
+.izquierda {
+  width: 50%;
+}
+
 .nombreYDescripcion {
   font-size: 20px;
   color: #333;
+  width: 70%;
+}
+
+.divDer {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+#boton{
+  display: flex;
+  padding-top: 30px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+#ola {
+  width: 100%;
 }

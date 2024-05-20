@@ -8,11 +8,13 @@ import Contacto from "./views/Contacto"
 import Experiencia from "./views/Experiencia"
 import Educacion from "./views/Educacion"
 import HeaderBar from './components/Header';
+import ola from './vendor/wave-bg.svg';
 
 
 // import Boton from "./components/boton"
 import React, { useState, useEffect } from 'react';
 import Boton from "./components/Boton"
+import imagen from "./vendor/fotoInicio.png"
 
 function App() {
   
@@ -39,15 +41,23 @@ function App() {
       </header>
       <main>
         <div className='inicioSaludo'>
-          <div className='saludo'>
-            <h2>{greeting}</h2>
+          <div class="izquierda">
+            <div className='saludo'>
+              <h2>{greeting}</h2>
+            </div>
+            <div className='nombreYDescripcion'>
+              <h1>Soy {nombre}</h1>
+              <p>Estudiante de ORT Argentina y Futuro Desarrollador FullStack</p>
+            </div>
+            <div id="boton">
+              <Boton id="botonContact" texto="Contactame!" destino="#contacto" />
+            </div>
           </div>
-          <div className='nombreYDescripcion'>
-            <h1>Soy {nombre}</h1>
-            <p>Estudiante de ORT Argentina y Futuro Desarrollador FullStack</p>
-            <Boton texto="Contactame!" destino="#contacto" />
+          <div class="divDer">
+            <img src={imagen} alt="gran computadora"/>
           </div>
         </div>
+        <img id="ola" src={ola} alt="ola"/>
         <AcercaDeMi nombre={nombre} />
         <Conocimientos />
         <Experiencia />

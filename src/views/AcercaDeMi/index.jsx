@@ -2,7 +2,8 @@ import React from 'react';
 import './style.css'; // Asegúrate de importar los estilos si es necesario
 import boton from "../../components/Boton";
 import titulo from "../../components/Titulo";
-import imagen from "../../vendor/noah.jfif"
+import imagen from "../../vendor/noah.jfif";
+import "./style.css";
 
 const AcercaDeMi = (props) => {
     // Función para calcular la edad
@@ -28,7 +29,7 @@ const AcercaDeMi = (props) => {
         <div id="acerca">
             <div className="Descripcion">
                 <h2>Buenas! Me llamo {props.nombre}</h2>
-                <p>Soy estudiante de la escuela ORT Argentina, próximo estudiante de la carrera de Ingeniería en Informática de la UADE. Soy una persona muy abierta a la hora de aprender, me encanta poder adquirir habilidades de diferentes trabajos.</p>
+                <p>Soy estudiante de la escuela ORT Argentina, próximo estudiante de la carrera de Ingeniería en Informática. Soy una persona muy abierta a la hora de aprender, me encanta poder adquirir habilidades de diferentes trabajos.</p>
             </div>
             <div className="edadymail">
                 <p>Edad: {edad}</p>
