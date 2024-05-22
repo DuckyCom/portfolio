@@ -1,30 +1,8 @@
-/*const HeaderBar = (props) =>{
-
-    const nombres = [
-        "Acerca de mi",
-        "Conocimientos",
-        "Experiencia",
-        "Educación",
-        "Certificaciones",
-        "Contacto"
-    ]
-
-    // Aca hay que hacer una funcion que corte cada uno de los array y que para cada uno te redirija a un link diferente. Por ejemplo, el Acerca de Mi a un "/acercademi".
-
-    return(
-        <div>
-            <ul>
-                <li></li>            
-            </ul>
-        </div>
-    );
-}
-
-export default HeaderBar;*/
 import React, { useEffect, useState } from 'react';
 import './HeaderBar.css';
+import ToggleButton from '../ToggleButton/ToggleButton';
 
-function HeaderBar() {
+function HeaderBar() { /*voy a hacer un gran cambio*/
   const [lastScrollY, setLastScrollY] = useState(0);
   const [scrollTopVisible, setScrollTopVisible] = useState(false);
 
@@ -48,6 +26,8 @@ function HeaderBar() {
       };
     }
   }, [lastScrollY]);
+
+  
 // navbar-expand-lg bg-secondary text-uppercase fixed-top
   return (
     <>
@@ -72,7 +52,7 @@ function HeaderBar() {
         id="scrolltop"
         style={{
           visibility: scrollTopVisible ? 'visible' : 'hidden',
-          opacity: scrollTopVisible ? 1 : 0
+          opacity: scrollTopVisible ? 1 : 0,
         }}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
@@ -83,6 +63,7 @@ function HeaderBar() {
     
   );
 }
+
 
 export default HeaderBar;
 
