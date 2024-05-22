@@ -21,9 +21,8 @@
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: #00151f;
     color: white;
-    border-radius: 0 0 15px 15px ;
     padding: 10px 10px;
     display: flex;
     justify-content: space-around;

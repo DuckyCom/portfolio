@@ -4,6 +4,8 @@ import boton from "../../components/Boton";
 import titulo from "../../components/Titulo";
 import imagen from "../../vendor/noah.jfif";
 import "./style.css";
+import ola from "../../vendor/wave2.svg"
+import olaArriba from "../../vendor/wave.svg";
 
 const AcercaDeMi = (props) => {
     // Función para calcular la edad
@@ -26,17 +28,23 @@ const AcercaDeMi = (props) => {
     const mail = "noahdemianr@gmail.com";
 
     return(
-        <div id="acerca">
-            <div className="Descripcion">
-                <h2>Buenas! Me llamo {props.nombre}</h2>
-                <p>Soy estudiante de la escuela ORT Argentina, próximo estudiante de la carrera de Ingeniería en Informática. Soy una persona muy abierta a la hora de aprender, me encanta poder adquirir habilidades de diferentes trabajos.</p>
+        <div>
+            <div id="acerca">
+                <div className="subDivAcerca">
+                    <div>
+                        <h2>Buenas! Me llamo {props.nombre}</h2>
+                        <p>Soy estudiante de la escuela ORT Argentina, próximo estudiante de la carrera de Ingeniería en Informática. Soy una persona muy abierta a la hora de aprender, me encanta poder adquirir habilidades de diferentes trabajos.</p>
+                        <p>Edad: {edad}</p>
+                        <p>Mail: {mail}</p>
+                    </div>
+                </div>
+                <div class="subDivAcerca">
+                    <img src={imagen} alt="img-perfil" />
+                </div>
             </div>
-            <div className="edadymail">
-                <p>Edad: {edad}</p>
-                <p>Mail: {mail}</p>
-            </div>
-            <img src={imagen} alt="img-perfil" />
+            <img class="ola2" src={ola} alt="ola"/>
         </div>
+        
     )
 };
 

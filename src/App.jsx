@@ -8,7 +8,7 @@ import Contacto from "./views/Contacto"
 import Experiencia from "./views/Experiencia"
 import Educacion from "./views/Educacion"
 import HeaderBar from './components/Header';
-import ola from './vendor/wave-bg.svg';
+import ola from './vendor/wave.svg';
 
 
 // import Boton from "./components/boton"
@@ -57,7 +57,7 @@ function App() {
             <img src={imagen} alt="gran computadora"/>
           </div>
         </div>
-        <img id="ola" src={ola} alt="ola"/>
+        <img class="ola" src={ola} alt="ola"/>
         <AcercaDeMi nombre={nombre} />
         <Conocimientos />
         <Experiencia />

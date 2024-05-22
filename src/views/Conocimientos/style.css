@@ -1,0 +1,58 @@
+.conocimientos-container {
+    margin-top: -18%;
+    margin-bottom: 40px; /* Aumentar espacio alrededor del título */
+    text-align: center; /* Centrar el título */
+    background-color: #173544;
+    color: white;
+    padding: 200px 5% 50px;
+}
+
+.rowConocimientos {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumentar espacio entre elementos */
+}
+
+.conocimientosImgText {
+    text-align: center;
+    margin-top: 20px; /* Aumentar margen entre texto e imagen */
+}
+
+.conocimientosImgText img {
+    width: 125px;
+    height: auto;
+    padding-bottom: 10%;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); /* Transición suave y personalizada */
+}
+
+.conocimientosImgText img:hover {
+    transform: translateY(-15px); /* Mueve la imagen hacia arriba en 5px al hacer hover */
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+.ola3 {
+    transform: scaleY(0.50);
+    width: 108.5%;
+    margin: -8.5%;
+}

@@ -58,7 +58,8 @@ body {
 /* Otros estilos de la aplicación */
 .inicioSaludo {
   padding: 20px;
-  background-color: #f4f6f8;
+  background-color: #001925;
+  color: white;
   width: 100%;
   padding: 20px 10%;
   display: flex;
@@ -75,7 +76,7 @@ body {
 
 .nombreYDescripcion {
   font-size: 20px;
-  color: #333;
+  color: rgb(235, 252, 255);
   width: 70%;
 }
 
@@ -86,6 +87,11 @@ body {
   justify-content: center;
 }
 
+.ola {
+  transform: scaleY(0.5);
+  height: 50%;
+  margin-top: -5.6%;
+}
 #boton{
   display: flex;
   padding-top: 30px;
@@ -93,8 +99,4 @@ body {
 
 h1 {
   font-weight: 800;
-}
-
-#ola {
-  width: 100%;
 }

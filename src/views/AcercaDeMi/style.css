@@ -1,0 +1,25 @@
+#acerca {
+    margin-top: -15%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 150px 5% 50px;
+    background-color: #0C2B39;
+}
+.subDivAcerca {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.subDivAcerca img {
+    border-radius: 100%;
+    width: 45%;
+    height: auto;
+}
+
+.ola2 {
+    transform: scaleY(0.65);
+    margin-top: -3.9%;
+}
