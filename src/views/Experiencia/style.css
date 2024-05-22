@@ -7,3 +7,15 @@
     margin-bottom: 0; /* Elimina el margen inferior de Bootstrap */
     width: 100%; /* Establece el ancho al 100% */
 }
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#experiencia {
+    margin-top: -15%;
+    padding: 200px 5% 0;
+    background-color: #26404E;
+}
