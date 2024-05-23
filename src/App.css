@@ -115,3 +115,15 @@ h1 {
   --color-fondo-parte7: #4A6C7D;
 
 }
+
+[data-theme = "light"]{
+  --color-textoPrimario: #000622;
+  --color-fondo-barra-botones: #EAF2FF;
+  --color-fondo-parte1: #87A7FF;
+  --color-fondo-parte2: #91B7FF;
+  --color-fondo-parte3: #9DBCFF;
+  --color-fondo-parte4: #AAC4FF;
+  --color-fondo-parte5: #BBD7FA;
+  --color-fondo-parte6: #C6E6FF;
+  --color-fondo-parte7: #CEEFFF;
+}

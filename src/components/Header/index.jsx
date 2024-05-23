@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './HeaderBar.css';
-import ToggleButton from '../ToggleButton/ToggleButton';
+import { Toggle } from '../../components/ToggleButton';
 
 function HeaderBar() { /*voy a hacer un gran cambio*/
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -45,6 +45,7 @@ function HeaderBar() { /*voy a hacer un gran cambio*/
               <li className="nav-item"><a className="nav-link" href="#certificaciones">Certificaciones</a></li>
               <li className="nav-item"><a className="nav-link" href="#contacto">Contacto</a></li>
             </ul>
+
           </div>
         </div>
       </nav>

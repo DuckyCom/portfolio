@@ -99,7 +99,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: var(--color-fondo-parte7);
-    color: white;
+    color: var(--colot-textoPrimario);
   }
 
   .contacto .textAlLado{
