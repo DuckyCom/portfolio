@@ -11,13 +11,13 @@
 .titulo {
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--color-textoPrimario);
 }
 
 #experiencia {
-    margin-top: -15%;
+    margin-top: -19%;
     padding: 175px 5% 0;
-    background-color: #26404E;
+    background-color: var(--color-fondo-parte4);
 }
 
 .experiencia{
@@ -55,4 +55,9 @@
     float: right;
     width: 200px;
     height: 50px;
+}
+
+#ola4 {
+    fill: var(--color-fondo-parte4);
+    transform: scaleY(0.5);
 }

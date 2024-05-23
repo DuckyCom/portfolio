@@ -20,13 +20,13 @@
 .relleno {
     font-size: 1.1rem;
     padding: 0.8em 2em;
-    background-color: #00151f;
-    border: 3px solid rgb(255, 255, 255);
+    background-color: var(--color-fondo-barra-botones);
+    border: 3px solid var(--color-textoPrimario);
     border-radius: 1em;
-    color: #fff;
+    color: var(--color-textoPrimario);
     font-weight: bolder;
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px rgb(255, 255, 255);
+    box-shadow: -5px 5px 0px 0px var(--color-textoPrimario);
   }
   
   .relleno:hover {

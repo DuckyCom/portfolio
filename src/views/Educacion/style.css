@@ -1,10 +1,10 @@
 #educacion {
-    background-color: #314F60;
-    padding: 15% 5% 5%;
-    margin-top: -19%;
+    background-color: var(--color-fondo-parte5);
+    padding: 10% 5% 5%;
+    margin-top: -20.3%;
 }
 
-.ola5 {
+#ola5 {
+    fill: var(--color-fondo-parte5);
     transform: scaleY(0.5);
-    margin-top: -6%;
 }

@@ -1,17 +1,18 @@
 #acerca {
-    margin-top: -15%;
+    margin-top: -19%;
     display: flex;
     width: 100%;
     justify-content: space-around;
     padding: 150px 5% 50px;
-    background-color: #0C2B39;
+    background-color: var(--color-fondo-parte2);
 }
 .subDivAcerca {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--color-textoPrimario);
+    ;
 }
 .subDivAcerca img {
     border-radius: 100%;
@@ -19,7 +20,7 @@
     height: auto;
 }
 
-.ola2 {
+#ola2 {
+    fill: var(--color-fondo-parte2);
     transform: scaleY(0.65);
-    margin-top: -3.9%;
 }

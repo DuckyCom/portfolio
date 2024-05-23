@@ -58,8 +58,8 @@ body {
 /* Otros estilos de la aplicación */
 .inicioSaludo {
   padding: 20px;
-  background-color: #001925;
-  color: white;
+  background-color: var(--color-fondo-parte1);
+  color: var(--color-textoPrimario);
   width: 100%;
   padding: 20px 10%;
   display: flex;
@@ -76,7 +76,7 @@ body {
 
 .nombreYDescripcion {
   font-size: 20px;
-  color: rgb(235, 252, 255);
+  color: var(--color-textoPrimario);
   width: 70%;
 }
 
@@ -87,10 +87,10 @@ body {
   justify-content: center;
 }
 
-.ola {
+#ola1 {
+  fill: var(--color-fondo-parte1);
   transform: scaleY(0.5);
   height: 50%;
-  margin-top: -5.6%;
 }
 #boton{
   display: flex;
@@ -99,4 +99,19 @@ body {
 
 h1 {
   font-weight: 800;
+}
+
+
+/*deckaracion de colores*/
+:root {
+  --color-textoPrimario: #ffffff;
+  --color-fondo-barra-botones: #00151f;
+  --color-fondo-parte1: #001925;
+  --color-fondo-parte2: #0C2B39;
+  --color-fondo-parte3: #173544;
+  --color-fondo-parte4: #26404E;
+  --color-fondo-parte5: #314F60;
+  --color-fondo-parte6: #3C5F71;
+  --color-fondo-parte7: #4A6C7D;
+
 }

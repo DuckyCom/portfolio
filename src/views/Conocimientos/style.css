@@ -1,9 +1,9 @@
 .conocimientos-container {
-    margin-top: -18%;
+    margin-top: -21%;
     margin-bottom: 40px; /* Aumentar espacio alrededor del título */
     text-align: center; /* Centrar el título */
-    background-color: #173544;
-    color: white;
+    background-color: var(--color-fondo-parte3);
+    color: var(--color-textoPrimario);
     padding: 200px 5% 50px;
 }
 
@@ -51,8 +51,11 @@
     }
 }
 
-.ola3 {
+
+#contOla3 {
+    margin-top: -2.1%;
+}
+#ola3 {
+    fill: var(--color-fondo-parte3);
     transform: scaleY(0.5);
-    width: 100%;
-    margin-top: -8.7%;
 }
