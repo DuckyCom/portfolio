@@ -29,11 +29,11 @@ const AcercaDeMi = (props) => {
         <div>
             <div id="acerca">
                 <div className="subDivAcerca">
-                    <div>
+                    <div className='textoAc'>
                         <h2>Buenas! Me llamo {props.nombre}</h2>
                         <p>Soy estudiante de la escuela ORT Argentina, próximo estudiante de la carrera de Ingeniería en Informática. Soy una persona muy abierta a la hora de aprender, me encanta poder adquirir habilidades de diferentes trabajos.</p>
                         <p>Edad: {edad}</p>
-                        <p>Mail: {mail}</p>
+                        <p className='pGrande'><b>Mail: {mail}</b></p>
                     </div>
                 </div>
                 <div class="subDivAcerca">

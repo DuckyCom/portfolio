@@ -12,12 +12,26 @@
     justify-content: center;
     align-items: center;
     color: var(--color-textoPrimario);
-    ;
+
 }
 .subDivAcerca img {
     border-radius: 100%;
     width: 45%;
     height: auto;
+}
+
+.subDivAcerca .textoAc{
+    margin-right:4%;
+    margin-left: 30%;
+}
+.subDivAcerca .textoAc .pGrande{
+    width: 100%;
+    font-size: 110%;
+}
+
+.subDivAcerca img{
+    width: 35%;
+    margin-bottom: 10%;
 }
 
 #ola2 {
