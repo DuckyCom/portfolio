@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './HeaderBar.css';
-import { Toggle } from '../../components/ToggleButton';
+import { ToggleButton } from '../ToggleButton/ToggleButton';
 
 function HeaderBar() { /*voy a hacer un gran cambio*/
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -27,10 +27,11 @@ function HeaderBar() { /*voy a hacer un gran cambio*/
     }
   }, [lastScrollY]);
 
-  
+  const [isLight, setIsLight] = useState(false);
 // navbar-expand-lg bg-secondary text-uppercase fixed-top
   return (
     <>
+      <div>
       <nav className="navbar" id="mainNav">
         <div className="container">
           <div className="navbar-brand">
@@ -45,7 +46,7 @@ function HeaderBar() { /*voy a hacer un gran cambio*/
               <li className="nav-item"><a className="nav-link" href="#certificaciones">Certificaciones</a></li>
               <li className="nav-item"><a className="nav-link" href="#contacto">Contacto</a></li>
             </ul>
-
+  
           </div>
         </div>
       </nav>
@@ -59,7 +60,7 @@ function HeaderBar() { /*voy a hacer un gran cambio*/
       >
         Volver para arriba 
       </button>
-    
+      </div>
     </>
     
   );

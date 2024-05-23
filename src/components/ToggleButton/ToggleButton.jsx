@@ -4,7 +4,7 @@ import './ToggleButton.css';
 export const ToggleButton = ({ handleChange, isChecked }) => {
   return (
       <label class="theme-switch">
-        <input type="checkbox" class="theme-switch__checkbox" id="" onChange={handleChange} checked={isChecked}/>
+        <input type="checkbox" class="theme-switch__checkbox" id="" onChange={handleChange} checked={isChecked}/> {/*esto es lo que se tiene que agregar al toggle elegido*/}
         <div class="theme-switch__container">
           <div class="theme-switch__clouds"></div>
           <div class="theme-switch__stars-container">

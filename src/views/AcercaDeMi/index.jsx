@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'; // Asegúrate de importar los estilos si es necesario
 import boton from "../../components/Boton";
 import titulo from "../../components/Titulo";
-import imagen from "../../vendor/noah.jfif";
+import imagen from "../../vendor/noah.jpg";
 import "./style.css";
 
 const AcercaDeMi = (props) => {

@@ -55,7 +55,8 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    align-items: center;
+    gap: 12px;
     margin: 0;
     padding: 0;
   }
@@ -100,8 +101,8 @@
   /* Estilos para el botón de "scroll to top" */
   #scrolltop {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 3.5%;
+    right: 2%;
     background-color: var(--color-fondo-barra-botones);
     color: var(--color-textoPrimario);
     border: none;

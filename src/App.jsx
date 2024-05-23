@@ -9,7 +9,7 @@ import Experiencia from "./views/Experiencia"
 import Educacion from "./views/Educacion"
 import HeaderBar from './components/Header';
 
-
+import { ToggleButton } from './components/ToggleButton/ToggleButton';
 // import Boton from "./components/boton"
 import React, { useState, useEffect } from 'react';
 import Boton from "./components/Boton"
@@ -35,9 +35,14 @@ function App() {
   const [isLight, setIsLight] = useState(false);
   return (
     <>
-      <div data-theme={isLight ? "light" : "dark"}>
+      <div id="all" data-theme={isLight ? "dark" : "light"}>
         <header>
-          <HeaderBar/>
+          
+          <ToggleButton 
+              isChecked={isLight}
+              handleChange = {() => setIsLight(!isLight)}
+            />
+            <HeaderBar/>
         </header>
         <main>
           <div className='inicioSaludo'>

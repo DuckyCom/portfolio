@@ -8,6 +8,9 @@
 * {
   font-family: 'Nunito Sans';
 }
+#all{
+  margin-top: -1.8%;
+}
 body {
   font-family: 'Nunito Sans', sans-serif, sans-serif; /* La otra fuente está por si Nunito no llega a cargarse */
   margin: 0;
