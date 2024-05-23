@@ -1,14 +1,8 @@
-.orange {
-    color: #ff7a01;
-  }
-  
-  .form-container {
+.form-container {
     max-width: 700px;
-    margin: 30px;
-    margin-left: 180px;
+    margin: 0 0 5%;
     background-color: #001925;
     padding: 30px;
-    border-left: 5px solid #ffffff;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
   }
   
@@ -100,10 +94,14 @@
   }
 
   .contacto{
+    padding: 14% 0 0;
+    margin-top: -15%;
     display: flex;
+    justify-content: space-evenly;
+    background-color: #4A6C7D;
+    color: white;
   }
 
   .contacto .textAlLado{
-    margin-top: 40px;
     width: 30%;
   }

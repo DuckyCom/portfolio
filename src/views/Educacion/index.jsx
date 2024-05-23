@@ -11,10 +11,12 @@ const Educacion = () => {
     return(
         <div>
             <div id="educacion">
-
+                <div className="titulo">
+                    <h1>Educación</h1>
+                </div>
                 
             </div>
-            <img class="ola" src={ola} alt="ola5"/>
+            <img class="ola5" src={ola} alt="ola5"/>
         </div>
     )
 };

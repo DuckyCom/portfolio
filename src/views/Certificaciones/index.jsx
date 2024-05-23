@@ -8,9 +8,12 @@ const Certificaciones = () => {
     return(
         <div>
             <div id="certificaciones">
+                <div className="titulo">
+                    <h1>Certificaciones</h1>                    
+                </div>
 
             </div>
-            <img class="ola" src={ola} alt="ola6"/>
+            <img class="ola6" src={ola} alt="ola6"/>
         </div>
     )
 };
