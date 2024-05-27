@@ -21,18 +21,17 @@
 }
 
 .navbar {
-    background-color: var(--color-fondo-barra-botones);
-    color: var(--color-textoPrimario);
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: transform 0.3s; /* Transición suave para esconder/mostrar la navbar */
-  }
+  background-color: var(--color-fondo-barra-botones);
+  color: var(--color-textoPrimario);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s; /* Transición suave para esconder/mostrar la navbar */
+}
 
   .navbar.hidden {
     transform: translateY(0); /* Asegúrate de que la navbar esté siempre visible */
