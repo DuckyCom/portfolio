@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.21fd0650.css",
+    "main.js": "/portfolio/static/js/main.6c1ded75.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/noah.jpg": "/portfolio/static/media/noah.c048d6209489c3ae3108.jpg",
+    "static/media/NunitoSans.ttf": "/portfolio/static/media/NunitoSans.61b71ee93d55d9bddead.ttf",
+    "static/media/logoORT.png": "/portfolio/static/media/logoORT.305b66f269bb16154325.png",
+    "static/media/fotoInicio.png": "/portfolio/static/media/fotoInicio.fedab4e6a2717f483446.png",
+    "static/media/web-programming.svg": "/portfolio/static/media/web-programming.9c09bc795d81d13facd31115280a5cb4.svg",
+    "static/media/full-stack.svg": "/portfolio/static/media/full-stack.4facd748ea20211ec2e7a2c3578adc94.svg",
+    "index.html": "/portfolio/index.html",
+    "main.21fd0650.css.map": "/portfolio/static/css/main.21fd0650.css.map",
+    "main.6c1ded75.js.map": "/portfolio/static/js/main.6c1ded75.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21fd0650.css",
+    "static/js/main.6c1ded75.js"
+  ]
+}
