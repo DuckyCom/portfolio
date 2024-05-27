@@ -19,10 +19,15 @@
 }
 
 .conocimientosImgText img {
-    width: 125px;
-    height: auto;
+
     padding-bottom: 10%;
     transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); /* Transición suave y personalizada */
+}
+
+.imgConocimiento1 {
+    width: 125px;
+    height: auto;
+    fill: var(--color-textoPrimario);
 }
 
 .conocimientosImgText img:hover {
