@@ -12,46 +12,40 @@ const Certificaciones = () => {
                 </div>
                 <div class="containerC">
                     <div>
-                        <div class="content">
+                    <a href="https://www.hackerrank.com/certificates/51eadfc2acea" target="_blank"> <div class="content">
                         <h2>SQL (Intermediate) Certificate</h2>
                         <span>HackerRank | Nov2023 - actualidad</span>
-                        </div>
+                        </div></a>
                     </div>
                     <div>
-                        <div class="content">
+                    <a href="https://media.licdn.com/dms/image/D4D2DAQFcNARokKZ7Zw/profile-treasury-image-shrink_800_800/0/1698446278272?e=1717441200&v=beta&t=UGrjIlxh1bi-Gln4kMMkpZQmlPxfcUBPmfImyvDkTPU" target="_blank"><div class="content">
                         <h2>UX Challenge</h2>
                         <span>Participacion como UX Designer | Universidad Maimónides | Sept2023 - Sept2023</span>
-                        </div>
+                        </div></a>
                     </div>
                     <div>
-                        <div class="content">
+                    <a href="https://www.cloudskillsboost.google/public_profiles/2453cd1e-c6c3-4e44-ac4a-c4eb2de5cd64/badges/5003258?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank"><div class="content">
                         <h2>Perform Foundational Infrastructure Tasks in Google Cloud</h2>
                         <span>Google Cloud Skills Boost | Sept2023</span>
-                        </div>
+                        </div></a>
                     </div>
                     <div>
-                        <div class="content">
+                    <a href="https://www.cloudskillsboost.google/public_profiles/2453cd1e-c6c3-4e44-ac4a-c4eb2de5cd64/badges/5162325?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank"><div class="content">
                         <h2>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h2>
                         <span>Google Cloud Skills Boost | Sept2023</span>
-                        </div>
+                        </div></a>
                     </div>
                     <div>
-                        <div class="content">
-                        <h2>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h2>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/2453cd1e-c6c3-4e44-ac4a-c4eb2de5cd64/badges/5003042?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank"><div class="content">
+                        <h2>Google Cloud Computing Foundations: Infrastructure</h2>
                         <span>Google Cloud Skills Boost | Sept2023</span>
-                        </div>
+                        </div></a>
                     </div>
                     <div>
-                        <div class="content">
-                        <h2>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h2>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/2453cd1e-c6c3-4e44-ac4a-c4eb2de5cd64/badges/5470863?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank"><div class="content">
+                        <h2>Introduction to Generative AI</h2>
                         <span>Google Cloud Skills Boost | Sept2023</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="content">
-                        <h2>Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud</h2>
-                        <span>Google Cloud Skills Boost | Sept2023</span>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

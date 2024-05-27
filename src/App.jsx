@@ -14,6 +14,7 @@ import { ToggleButton } from './components/ToggleButton/ToggleButton';
 import React, { useState, useEffect } from 'react';
 import Boton from "./components/Boton"
 import imagen from "./vendor/fotoInicio.png"
+import Type from "./Type";
 
 function App() {
   
@@ -52,7 +53,7 @@ function App() {
               </div>
               <div className='nombreYDescripcion'>
                 <h1>Soy {nombre}</h1>
-                <p>Estudiante de ORT Argentina y Futuro Desarrollador FullStack</p>
+                <p>Estudiante de ORT Argentina y Futuro <Type/></p>
               </div>
               <div id="boton">
                 <Boton id="botonContact" texto="Contactame!" destino="#contacto" />

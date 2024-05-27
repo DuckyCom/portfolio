@@ -38,13 +38,14 @@
     background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
   }
   .containerC > div:nth-of-type(5) {
-    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+    background: url("https://cdn.qwiklabs.com/KBM55i60HvsjEpmnNOFSwSbmgeNi1vEjNuFy9vRJBfI%3D") no-repeat 50%/cover;
   }
   .containerC > div:nth-of-type(6) {
-    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+    background: url("https://cdn.qwiklabs.com/k818RWx33jhv%2FiUD1EREu9zt3zwqqK5SkqjLiJzXhek%3D  ") no-repeat 50%/cover;
   }
-  .containerC > div:nth-of-type(7) {
-    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+  .containerC  a{
+    color: inherit;
+    text-decoration: none;
   }
   .containerC > div .content {
     font-size: 15px;

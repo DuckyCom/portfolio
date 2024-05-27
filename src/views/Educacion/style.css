@@ -12,14 +12,14 @@
 
 #cardsContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 5% 0;
 }
 /*card*/
 .card1 {
     position: relative;
-    width: 400px;
-    height: 265px;
+    width: 380px;
+    height: 250px;
     background-color: #f2f2f2;
     border-radius: 10px;
     display: flex;
