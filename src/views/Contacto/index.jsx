@@ -19,9 +19,9 @@ const Contacto = () => {
             </div>
             <div className="textAlLado">
                 <div className="txt">
-                    <h5 className="tituloTxt">¡Escribeme si necesitas algo!</h5>
-                    <p>Consultame lo que necesites a través del formulario o enviandome un mail a mi correo personal</p>
-                    <p>¡Gracias por ver mi sitio WEB!</p>
+                    <h5 className="txtcontacto">¡Escribeme si necesitas algo!</h5>
+                    <p className="txtcontacto">Consultame lo que necesites a través del formulario o enviandome un mail a mi correo personal</p>
+                    <p className="txtcontacto">¡Gracias por ver mi sitio WEB!</p>
                 </div>
             </div>
         </div>

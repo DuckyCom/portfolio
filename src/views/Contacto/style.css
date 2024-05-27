@@ -105,3 +105,7 @@
   .contacto .textAlLado{
     width: 30%;
   }
+
+  .txtcontacto {
+    color: var(--color-textoPrimario);
+  }
