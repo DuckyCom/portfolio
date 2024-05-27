@@ -50,7 +50,13 @@
 .card{
     margin: 10px;
     width: 45%;
+    color: var(--color-textoPrimario) !important;
+    --bs-card-bg: var(--color-fondo-parte2) !important;
 }
+.text-muted {
+    color: var(--color-fondo-parte6) !important;
+}
+
 .experiencia .rowExperiencia .card img{
     float: right;
     width: 200px;
@@ -60,4 +66,9 @@
 #ola4 {
     fill: var(--color-fondo-parte4);
     transform: scaleY(0.5);
+}
+
+.expImg {
+    fill: var(--color-textoPrimario);
+    width: 9%;
 }

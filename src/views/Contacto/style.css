@@ -1,23 +1,23 @@
 .form-container {
     max-width: 700px;
     margin: 0 0 5%;
-    background-color: #001925;
+    background-color: var(--color-fondo-barra-botones);
     padding: 30px;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
   }
   
   .heading {
     display: block;
-    color: white;
+    color: var(--color-textoPrimario);
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 20px;
   }
   
   .form-container .form .input {
-    color: #ffffff;
+    color: var(--color-textoPrimario);
     width: 100%;
-    background-color: #002733;
+    background-color: var(--color-fondo-parte3);
     border: none;
     outline: none;
     padding: 10px;
@@ -28,7 +28,7 @@
   }
   
   .form-container .form .input:focus {
-    border-left: 5px solid #ffffff;
+    border-left: 5px solid var(--color-textoPrimario);
   }
   
   .form-container .form .textarea {
@@ -36,8 +36,8 @@
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #013747;
-    color: #ffffff;
+    background-color: var(--color-fondo-parte3);
+    color: var(--color-textoPrimario);
     font-weight: bold;
     resize: none;
     max-height: 150px;
@@ -47,7 +47,7 @@
   }
   
   .form-container .form .textarea:focus {
-    border-left: 5px solid #ffffff;
+    border-left: 5px solid var(--color-textoPrimario);
   }
   
   .form-container .form .button-container {
@@ -57,9 +57,9 @@
   
   .form-container .form .button-container .send-button {
     flex-basis: 70%;
-    background: #ffffff;
+    background: var(--color-textoPrimario);
     padding: 10px;
-    color: #001925;
+    color: var(--color-fondo-barra-botones);
     text-align: center;
     font-weight: bold;
     border: 1px solid transparent;
@@ -68,12 +68,12 @@
   
   .form-container .form .button-container .send-button:hover {
     background: transparent;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid var(--color-textoPrimario);
+    color: var(--color-textoPrimario);
   }
   
   .form-container .form .button-container .reset-button-container {
-    filter: drop-shadow(1px 1px 0px #ffffff);
+    filter: drop-shadow(1px 1px 0px var(--color-textoPrimario));
     flex-basis: 30%;
   }
   
@@ -81,16 +81,16 @@
     position: relative;
     text-align: center;
     padding: 10px;
-    color: #ffffff;
+    color: var(--color-textoPrimario);
     font-weight: bold;
-    background: #001925;
+    background: var(--color-fondo-barra-botones);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
     transition: all 0.2s ease-in-out;
   }
   
   .form-container .form .button-container .reset-button-container .reset-button:hover {
-    background: #ffffff;
-    color: #001925;
+    background: var(--color-textoPrimario);
+    color: var(--color-fondo-barra-botones);
   }
 
   .contacto{

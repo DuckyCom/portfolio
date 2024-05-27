@@ -8,3 +8,78 @@
     fill: var(--color-fondo-parte6);
     transform: scaleY(0.5);
 }
+
+.containerC {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    gap: 10px;
+  }
+  .containerC > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+  }
+  .containerC > div:nth-of-type(1) {
+    background: url("https://i.ibb.co/LpDrgQP/descarga-1.png") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(2) {
+    background: url("https://media.licdn.com/dms/image/D4D2DAQFcNARokKZ7Zw/profile-treasury-image-shrink_800_800/0/1698446278272?e=1717437600&v=beta&t=DoTOl-DWvLS4M51LYvi6AKZFfYYPnI_E5HJHXu3RAmE") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(3) {
+    background: url("https://cdn.qwiklabs.com/SOUHCWvev6HmfC5QztXJd%2BCkSK8%2B3WGWg%2BF%2Fww%2FfqXA%3D") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(4) {
+    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(5) {
+    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(6) {
+    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+  }
+  .containerC > div:nth-of-type(7) {
+    background: url("https://cdn.qwiklabs.com/dUuOtMI%2Bxew%2Bz08cHAwdFpSla74i2jRsUyCCGjqCsqo%3D") no-repeat 50%/cover;
+  }
+  .containerC > div .content {
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: #02022e;
+    background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077031) 0%, rgba(0, 0, 0, 0) 100%);
+    transform: translatey(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  .containerC > div .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .containerC > div .content h2 {
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .containerC > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #7645d8;
+    transform: translatey(-30px);
+  }
+  .containerC > div:hover .content {
+    opacity: 1;
+    transform: translatey(0%);
+    visibility: visible;
+  }

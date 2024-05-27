@@ -12,7 +12,9 @@
     justify-content: center;
     gap: 40px; /* Aumentar espacio entre elementos */
 }
-
+h5{
+    margin-top: 5% !important;
+}
 .conocimientosImgText {
     text-align: center;
     margin-top: 20px; /* Aumentar margen entre texto e imagen */
@@ -21,16 +23,17 @@
 .conocimientosImgText img {
 
     padding-bottom: 10%;
-    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); /* Transición suave y personalizada */
+     /* Transición suave y personalizada */
 }
 
 .imgConocimiento1 {
     width: 125px;
     height: auto;
     fill: var(--color-textoPrimario);
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.conocimientosImgText img:hover {
+.imgConocimiento1:hover {
     transform: translateY(-15px); /* Mueve la imagen hacia arriba en 5px al hacer hover */
 }
 
