@@ -1,16 +1,21 @@
 #certificaciones {
     background-color: var(--color-fondo-parte6);
-    padding: 12% 5% 5%;
+    padding: 12% 5% 2%;
     margin-top: -21.2%;
 }
 
+
 #ola6 {
-    fill: var(--color-fondo-parte6);
-    transform: scaleY(0.5);
+  margin-left: -6%;
+  width: 111.5%;
+  fill: var(--color-fondo-parte6);
+  transform: scaleY(0.65);
+
 }
 
 .containerC {
     margin-top: 3%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     height: 300px;
